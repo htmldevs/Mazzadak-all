@@ -1,0 +1,604 @@
+/*========== XL-DESKTOP : BETWEEN 1200px TO 1500PX. ==========*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* GLOBAL */
+    .container {
+       max-width: 1120px;
+    }
+    h1 {
+       font-size: 52px;
+    }
+    h2 {
+       font-size: 43px;
+    }
+    h3 {
+       font-size: 36px;
+    }
+    h4 {
+       font-size: 25px;
+    }
+    h5 {
+       font-size: 20px;
+    }
+    h6 {
+       font-size: 16px;
+    }
+    body {
+       font-size: 15px;
+    }
+
+    /* ALL */
+   .auction-link {
+      margin-top: 40px;
+   }
+    .acution-option h4 {
+      font-size: 20px;
+   }
+   .auction-timer .hero-counter h3 {
+      font-size: 28px;
+   }
+   .video-wrapper {
+      height: 550px;
+   }
+}
+
+/*========== LG + MD : BETWEEN 768PX TO 1199PX. ==========*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* GLOBAL */
+    h1 {
+       font-size: 40px;
+    }
+    h2 {
+       font-size: 38px;
+    }
+    h3 {
+       font-size: 28px;
+    }
+    h4 {
+       font-size: 20px;
+    }
+    h5 {
+       font-size: 20px;
+    }
+    h6 {
+       font-size: 14px;
+    }
+    body {
+       font-size: 14px;
+    }
+    input, textarea {
+      font-size: 14px;
+   }
+   /* GLOBAL// */
+
+   /* HEADER */
+   .header-action {
+      padding-left: 10px;
+   }
+
+   /* PAGE TITLE */
+   .page-title {
+      height: 250px;
+   }
+
+   /* AUCTIONS item */
+   .auction-link h3,
+   .auction-content > h3 {
+      font-size: 26px;
+   }
+   .auction-link {
+      margin-top: 40px;
+   }
+   .acution-option h4 {
+      font-size: 16px;
+   }
+   .auction-badge {
+      font-size: 12px;
+   }
+   .auction-badge img {
+      max-width: 20px;
+   }
+   .auction-timer .hero-counter h3 {
+      font-size: 28px;
+   }
+
+   /* VIDEO AREA */
+   .video-wrapper {
+      height: 440px;
+   }
+   .video-wrapper .site-btn {
+      font-size: 18px;
+   }
+
+   .back-arrow img {
+      width: 30px;
+   }
+}
+
+/*========== LG-DESKTOP : BETWEEN 992PX TO 1199px. ==========*/
+@media (min-width: 992px) and (max-width: 1199px) {
+   /* GLOBAL */
+   .container {
+       max-width: 920px;
+   }
+   .mainmenu ul li a{
+      padding: 0.5em;
+   }
+   .sl-img img { 
+      height: 350px; 
+      border-radius:15px;
+   }
+  .timer-box h2 { 
+      font-size: 20px;
+   }
+   .hero-img-content .site-btn { 
+      padding: 0.7em 1.8em; 
+   }
+   .partner-sliders img { 
+      max-height: 100px; 
+   }
+   .auction-content { 
+      padding: 50px 30px;
+   } 
+   .acution-option h4 {
+      font-size: 16px;
+   }
+
+   .acution-option {
+      gap: 2rem !important;
+   }
+   .testimonial-single-item > img{
+      width: 100px;
+      height: 100px;
+   }
+   .app_stores a img {
+      margin: 0;
+      max-width: 140px;
+   }
+
+}
+
+/*========== MD-TABLET : BETWEEN 768PX TO 991PX ==========*/
+ @media (min-width: 768px) and (max-width: 991px) {
+   /* GLOBAL */
+   .container {
+      max-width: 750px;
+   }
+   h1 {
+      font-size: 35px;
+   }
+   /* GLOBAL// */
+   .hero-area .section-content h1 {
+      font-size: 32px;
+  }
+  
+  .sl-img img {
+      height: 340px;
+  }
+  
+  .hero-counter {
+      width: 70%;
+  }
+  
+  .timer-box h2 {
+      font-size: 24px;
+  }
+  
+  .hero-img-content .site-btn {
+      padding: 0.6em 1.8em;
+  }
+  .partner-sliders { 
+   justify-content: center;
+   gap: 0;
+}
+.partner-sliders img { 
+   max-height: 75px; 
+}
+.acution-option {
+   flex-wrap: wrap;
+   gap: 1rem !important;
+}
+
+.acution-option h4 span {
+   margin-top: 5px;
+}
+.auction-content { 
+   padding: 30px 25px;
+}
+.product-text p {
+   font-size: 16px; 
+}
+.product-text h3 {
+   font-size: 18px; 
+}
+.about-area .section-content h3 {
+   font-size: 36px;
+}
+.contact-form { 
+   padding: 30px;
+   border-radius: 15px;
+}
+textarea{
+   min-height: 100px;
+}
+.contact-form textarea {
+   height: 115px;
+}
+.social_medias a img { 
+   max-width: 20px;
+}
+.social_medias { 
+   gap: 10px; 
+}
+.app_stores a img { 
+   max-width: 90px;
+}
+.bar-icon{
+   display: block;
+}
+.header-action .bar-icon{
+   margin: 0;
+}
+.testimonial-single-item p{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.testimonial-single-item { 
+   height: auto;  
+   padding: 25px 20px;
+}
+
+/* AUCTION BID PAGE */
+.auction-gallery {
+   height: 500px;
+}
+
+
+
+}
+ 
+/*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
+@media (max-width: 767px) {
+   /* GLOBAL */
+   h1 {
+      font-size: 32px;
+   }
+   h2 {
+      font-size: 26px;
+   }
+   h3 {
+      font-size: 26px;
+   }
+   h4 {
+      font-size: 18px;
+   }
+   h5 {
+      font-size: 16px;
+   }
+   h6 {
+      font-size: 14px;
+   }
+   body {
+      font-size: 14px;
+   }
+   .scroll-up {
+      font-size: 12px;
+   }
+   input, textarea {
+      font-size: 12px;
+      border-width: 2px;
+   }
+   /* GLOBAL// */
+
+
+
+   .hero-area .section-content {
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  
+  .hero-area .section-content h1 {
+      font-size: 28px;
+  }
+  
+.bar-icon{
+   display: block;
+}
+  .sl-img img {
+      height: 280px;
+      border-radius: 20px;
+  }
+  
+  .hero-counter {
+      width: 85%;
+  }
+  
+  .hero-counter h6 {
+      font-size: 13px;
+  }
+  .logo a { 
+   max-width: 90px;
+}
+  .timer-box h2 {
+      font-size: 22px;
+  }
+  
+  .hero-img-content .site-btn {
+      padding: 0.6em 1.8em;
+  }
+  
+  .partner-sliders {
+      flex-wrap: wrap;
+      gap: 0;
+      justify-content: center;
+  }
+  
+  .auction-single-item {
+      flex-wrap: wrap;
+      overflow: hidden;
+      border-radius: 15px;
+  }
+  
+  .auction-single-item > div {
+      width: 100%;
+  }
+  
+  .auction-thumb {
+      height: 250px;
+      border-radius: 0 0 10px 10px;
+  }
+  
+  .auction-badge {
+      top: 20px;
+      left: 20px;
+      padding: 0.5em 1em;
+  }
+  
+  .auction-badge img {
+      max-width: 15px;
+  }
+  
+  .auction-content {
+      padding: 30px 20px;
+  }
+  
+  .auction-content h3::after {
+      width: 130px;
+  }
+  
+  .acution-option {
+      flex-wrap: wrap;
+      gap: 1rem !important;
+  }
+  
+  .acution-option h4 span {
+      margin-top: 0;
+  }
+  
+  .auction-link {
+      flex-wrap: wrap;
+  }
+  
+  .auction-link div {
+      display: block;
+      width: 100%;
+  }
+  
+  .auction-content .site-btn {
+      margin: auto;
+      margin-top: 20px;
+  }
+  
+  .video-wrapper {
+      height: 250px;
+      border-bottom: 10px;
+  }
+  
+  .video-wrapper img {
+      top: 20px;
+      left: 20px;
+      max-width: 60px;
+  }
+  
+  .video-wrapper .site-btn {
+      bottom: 35px;
+      font-size: 15px;
+      padding: 0.8em 1.8em;
+      width: max-content;
+  }
+  
+  .product-item {
+      margin-bottom: 30px;
+  }
+  
+  .about-area .section-content {
+      text-align: center;
+  }
+  
+  .about-area .section-content h3 {
+      font-size: 32px;
+      margin-bottom: 15px;
+  }
+  
+  .contact-area .section-content {
+      text-align: center;
+  }
+  
+  ul.contact-info {
+      text-align: left;
+      justify-content: center;
+      margin-bottom: 30px;
+  }
+  
+  ul.contact-info li {
+      max-width: 200px;
+  }
+  
+  .contact-form {
+      padding: 24px;
+      border-radius: 10px;
+  }
+  
+  .widget-logo {
+      max-width: 150px;
+      margin: auto;
+      margin-bottom: 25px;
+  }
+  
+  .widget-contact {margin-top: 40px;}
+  
+  .social_medias {
+      justify-content: center;
+  }
+  
+  .widget-contact ul {
+      gap: 1rem !IMPORTANT;
+  }
+  
+  .app_stores {
+      justify-content: center;
+      gap: 10px;
+  }
+  
+  .app_stores a img {
+      max-width: 135px;
+  }
+  .widget-contact ul li {
+   max-width: 230px;
+}
+.about-thumb {
+   height: 320px;
+}
+
+.product-action .auction-badge { 
+   padding: 0.2em .5em; 
+}
+.shop-cart img {
+   max-width: 15px;
+}
+.shop-cart { 
+   width: 1.7em;
+   height: 1.7em; 
+}
+.product-action { 
+   padding: .5em;
+}
+.product-text h4 { 
+   font-size: 15px;
+}
+.product-text p {
+   font-size: 13px; 
+   line-height: normal;
+}
+.ratings ul li i {
+   font-size: 10px;
+}
+.ratings .gap-2 {
+   gap: .1rem !important;
+}
+.ratings span.fw-semibold {
+   font-size: 11px;
+}
+.product-text h3 {
+   font-size: 15px;  
+}
+
+.header-action .bar-icon{
+   margin: 0;
+}
+.header-action {
+   gap: 10px ! IMPORTANT;
+   padding-left: 10px;
+}
+.change_lang .show_lang span{
+   display: none;
+}
+.change_lang .show_lang{
+   padding: 5px;
+}
+.testimonial-single-item p{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.testimonial-single-item { 
+   height: auto;  
+   padding: 20px 15px;
+}
+.testimonial-single-item > img {
+   width: 90px;
+   height: 90px; 
+}
+.testimonial-single-item h5 { 
+   font-size: 13px;
+}
+.auction-link h3, .auction-content > h3 {
+	font-size: 24px;
+}
+
+/* PAGE TITLE */
+.page-title {
+	height: 180px;
+}
+
+/* AUTION PAGE */
+.auction-timer .hero-counter {
+	padding: 1em;
+}
+.auction-timer .hero-counter h3 {
+	font-size: 22px;
+}
+.auction-timer .timer-box h2 {
+	font-size: 28px;
+}
+
+
+
+/* Auction Bid Page */
+.auction-gallery {
+	height: 250px;
+}
+.tb-heading {
+	padding: 1.5em 0.5em;
+}
+.tb-content {
+	padding: 0 1em;
+}
+.tb-content .row {
+	padding: 1em 0em;
+}
+.auction-info-2 ul li span {
+	width: 60%;
+}
+.auction-info-2::after {
+	left: 35%;
+}
+.tb-content .row.active::after {
+	left: -8px;
+	background-size: 30%;
+}
+
+/* SELLER PROFILE */
+.seller-img img {
+	width: 120px;
+	height: 120px;
+}
+.seller-profile-area h3 {
+	font-size: 24px;
+}
+.back-arrow img {
+	width: 24px;
+}
+.seller-profile-area .ratings ul li i {
+	font-size: 14px;
+}
+
+}
+
+/*========== LARGE MOBILE : BETWEEN 480PX TO 767PX ==========*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+       max-width: 350px;
+    }
+}
+ 

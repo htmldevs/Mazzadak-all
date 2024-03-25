@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--======== Title & Favicon ========-->
+    <title>MAZZADAK | Sold Horses</title>
+    <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
+    <!--======== CSS ========-->
+    <link href="./assets/css/fontawesome.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/spacing.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">  
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-4">
+                    <div class="logo">
+                        <a href="#"><img src="./assets/img/logo/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-8">
+                    <div class="header-right d-flex align-items-center justify-content-end">
+                        <div class="mainmenu d-none d-lg-block">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Auctions</a></li>
+                                <li><a href="#">Sold Horses</a></li>
+                                <li><a href="#">Top Sellers</a></li>
+                                <li><a href="#">Mazzadak Store</a></li>
+                                <li><a href="#">About us</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-action d-flex align-items-center gap-3 pl-50">
+                            <a href="#" class="action-user">
+                                <img src="./assets/img/icons/user.png" alt="">
+                            </a>
+                            <a href="#" class="action-cart position-relative">
+                                <span>0</span>
+                                <img src="./assets/img/icons/bag.png" alt="">
+                            </a>
+                            <div class="change_lang">
+                                <div class="show_lang"><img src="assets/img/icons/eng.png" alt=""> <span>EN</span></div>
+                                <ul>
+                                    <li><img src="assets/img/icons/eng.png" alt=""> EN</li>
+                                    <li><img src="assets/img/icons/ara.png" alt=""> AR</li>
+                                </ul>
+                            </div>
+                            <a class="bar-icon siteBar-btn" href="#"><span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- mobile-menu START -->
+    <div class="mobile-menu">
+        <a href="#" class="bars siteBar-btn"><svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+        </svg></a> 
+        <nav> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Auctions</a></li>
+                <li><a href="#">Sold Horses</a></li>
+                <li><a href="#">Top Sellers</a></li>
+                <li><a href="#">Mazzadak Store</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav> 
+    </div> 
+    <!-- HEADER end -->
+
+    <!-- PAGE TITLE -->
+    <section class="page-title d-flex align-items-center bg-attachment" style="background-image: url('./assets/img/page-title/about.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center white-content">
+                    <h3 class="mb-0">Sold Horses</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PAGE TITLE end -->
+
+    <main class="main">
+
+        <!-- AUCTION-TIMER -->
+        <section class="auction-timer pt-45 pb-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <div class="hero-counter text-center white-content mx-auto">
+                            <h3>The Next Online Horse Auction Ends In:</h3>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-9 mx-auto">
+                                    <div class="timer-box d-flex justify-content-around mb-15">
+                                        <div>
+                                            <h2 class="date">00</h2>
+                                            <p>Days</p>
+                                        </div>
+                                        <div>
+                                            <h2 class="hour">00</h2>
+                                            <p>Hours</p>
+                                        </div>
+                                        <div>
+                                            <h2 class="min">00</h2>
+                                            <p>Minutes</p>
+                                        </div>
+                                        <div>
+                                            <h2 class="sec">00</h2>
+                                            <p>Seconds</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- AUCTION-TIMER end -->
+
+        <!-- AUCTION ALL -->
+        <section class="auction-all pb-80 pb-xs-60">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Single Item -->
+                    <div class="col-md-12">
+                        <div class="auction-single-item d-flex">
+                            <div class="auction-thumb bg-attachment position-relative" style="background-image: url('./assets/img/aution/img-1.jpg');">
+                                <div class="auction-badge el-absolute top-left fw-bold">
+                                    <img src="./assets/img/icons/bidding.png" alt=""> Bidding Live
+                                </div>
+                            </div>
+                            <div class="auction-content">
+                                <h3 class="position-relative mb-30">Queen Santana</h3>
+                                <div class="acution-option d-flex gap-5">
+                                    <h4 class="mb-0">Gender : <span>Mare</span></h4>
+                                    <h4 class="mb-0">Breed : <span>Missouri Fox Trotter</span></h4>
+                                    <h4 class="mb-0">Color : <span>Palomino</span></h4>
+                                    <h4 class="mb-0">Age : <span>7 years old</span></h4>
+                                </div>
+                                <div class="auction-link d-flex align-items-center justify-content-between mt-80 mt-md-50 mt-xs-30">
+                                    <div>
+                                        <h5 class="fw-medium mb-0">Starting Bid</h5>
+                                        <h3 class="text-theme mb-0">SAR 8000</h3>
+                                    </div>
+                                    <a href="#" class="site-btn">Bid Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="col-md-12">
+                        <div class="auction-single-item d-flex">
+                            <div class="auction-thumb bg-attachment position-relative" style="background-image: url('./assets/img/aution/img-2.jpg');">
+                                <div class="auction-badge el-absolute top-left fw-bold">
+                                    <img src="./assets/img/icons/bidding.png" alt=""> Bidding Live
+                                </div>
+                            </div>
+                            <div class="auction-content">
+                                <h3 class="position-relative mb-30">The Black Blossom</h3>
+                                <div class="acution-option d-flex gap-5">
+                                    <h4 class="mb-0">Gender : <span>Mare</span></h4>
+                                    <h4 class="mb-0">Breed : <span>Missouri Fox Trotter</span></h4>
+                                    <h4 class="mb-0">Color : <span>Palomino</span></h4>
+                                    <h4 class="mb-0">Age : <span>7 years old</span></h4>
+                                </div>
+                                <div class="auction-link d-flex align-items-center justify-content-between mt-80 mt-md-50 mt-xs-30">
+                                    <div>
+                                        <h5 class="fw-medium mb-0">Starting Bid</h5>
+                                        <h3 class="text-theme mb-0">SAR 8000</h3>
+                                    </div>
+                                    <a href="#" class="site-btn">Bid Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="col-md-12">
+                        <div class="auction-single-item d-flex">
+                            <div class="auction-thumb bg-attachment position-relative" style="background-image: url('./assets/img/aution/img-3.jpg');">
+                                <div class="auction-badge el-absolute top-left fw-bold">SOLD</div>
+                            </div>
+                            <div class="auction-content">
+                                <h3 class="position-relative mb-30">Sydney Mandi</h3>
+                                <div class="acution-option d-flex gap-5">
+                                    <h4 class="mb-0">Gender : <span>Mare</span></h4>
+                                    <h4 class="mb-0">Breed : <span>Missouri Fox Trotter</span></h4>
+                                    <h4 class="mb-0">Color : <span>Palomino</span></h4>
+                                    <h4 class="mb-0">Age : <span>7 years old</span></h4>
+                                </div>
+                                <div class="auction-link d-flex align-items-center justify-content-between mt-80 mt-md-50 mt-xs-30">
+                                    <div>
+                                        <h5 class="fw-medium mb-0">Auction Ended at</h5>
+                                        <h3 class="text-theme mb-0">SAR 17000</h3>
+                                    </div>
+                                    <a href="#" class="site-btn">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <div class="col-md-12">
+                        <div class="auction-single-item d-flex">
+                            <div class="auction-thumb bg-attachment position-relative" style="background-image: url('./assets/img/aution/img-4.jpg');">
+                                <div class="auction-badge el-absolute top-left fw-bold">SOLD</div>
+                            </div>
+                            <div class="auction-content">
+                                <h3 class="position-relative mb-30">Montain Yew</h3>
+                                <div class="acution-option d-flex gap-5">
+                                    <h4 class="mb-0">Gender : <span>Mare</span></h4>
+                                    <h4 class="mb-0">Breed : <span>Missouri Fox Trotter</span></h4>
+                                    <h4 class="mb-0">Color : <span>Palomino</span></h4>
+                                    <h4 class="mb-0">Age : <span>7 years old</span></h4>
+                                </div>
+                                <div class="auction-link d-flex align-items-center justify-content-between mt-80 mt-md-50 mt-xs-30">
+                                    <div>
+                                        <h5 class="fw-medium mb-0">Auction Ended at</h5>
+                                        <h3 class="text-theme mb-0">SAR 20000</h3>
+                                    </div>
+                                    <a href="#" class="site-btn">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- AUCTION ALL end -->
+
+    </main>
+
+    <!-- FOOTER  -->
+    <footer class="footer-area pt-120 pt-xs-50 pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="widget-logo">
+                        <img src="./assets/img/logo/logo-2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 col-5">
+                    <div class="widget-menu">
+                        <h4>Pages</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Auctions</a></li>
+                            <li><a href="#">Sold Horses</a></li>
+                            <li><a href="#">Live Bidding</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-7">
+                    <div class="widget-menu">
+                        <h4>Pages</h4>
+                        <ul>
+                            <li><a href="#">Our Store</a></li>
+                            <li><a href="#">Real Estates Auctions</a></li>
+                            <li><a href="#">Cars Auctions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Company Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widget-contact">
+                        <div class="social_medias">
+                            <a href="#"><img src="assets/img/icons/fb.png" alt=""></a>
+                            <a href="#"><img src="assets/img/icons/insta.png" alt=""></a>
+                            <a href="#"><img src="assets/img/icons/yt.png" alt=""></a> 
+                            <a href="#"><img src="assets/img/icons/lkd.png" alt=""></a>
+                            <a href="#"><img src="assets/img/icons/x.png" alt=""></a>
+                            <a href="#"><img src="assets/img/icons/tkt.png" alt=""></a>
+                        </div>
+                        <ul class="d-flex gap-4 gap-md-2 flex-column">
+                            <li class="d-flex gap-3 align-items-start">
+                                <img src="./assets/img/icons/map.svg" alt="">
+                                <div class="flex-1">
+                                    <p>KSAA, Riyadh, Ishbiliyah, Imam Abdullah Ibn Saud Rd</p>
+                                </div>
+                            </li>
+                            <li class="d-flex gap-3 align-items-start">
+                                <img src="./assets/img/icons/email.svg" alt="">
+                                <div class="flex-1">
+                                    <p>Contact@Mazzadak.com <span>Email us</span></p>
+                                </div>
+                            </li>
+                            <li class="d-flex gap-3 align-items-start">
+                                <img src="./assets/img/icons/phone.svg" alt="">
+                                <div class="flex-1">
+                                    <p>9660101010101+ <span>Call us</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="app_stores">
+                            <a href="#"><img src="assets/img/logo/appstore.png" alt=""></a>
+                            <a href="#"><img src="assets/img/logo/playstore.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="copyrightText">
+                        <p>Coby Wright applai <a href="#">applai.tech</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER end -->
+
+
+    <!--======== SCROLL UP// ========-->
+    <div class="scroll-up"><i class="fa-regular fa-angle-up"></i></div>
+    <!--======== SCROLL UP// ========-->
+
+    <!-- JS HERE -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
