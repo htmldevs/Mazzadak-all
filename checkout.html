@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--======== Title & Favicon ========-->
-    <title>MAZZADAK | Demo</title>
+    <title>MAZZADAK | Checkout</title>
     <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
     <!--======== CSS ========-->
     <link href="./assets/css/fontawesome.min.css" rel="stylesheet">
@@ -79,20 +79,91 @@
     </div> 
     <!-- HEADER end -->
 
-    <!-- PAGE TITLE -->
-    <section class="page-title d-flex align-items-center bg-attachment" style="background-image: url('./assets/img/page-title/about.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center white-content">
-                    <h3 class="mb-0">About us</h3>
+    <main class="main">
+        
+        <!-- Breadcrumb -->
+        <section class="breadcrumb-section pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="breadcrumb">
+                            <a class="breadcrumb-item" href="./index.html">Home</a>
+                            <a class="breadcrumb-item" href="./cart.html">My Cart</a>
+                            <span class="breadcrumb-item active">Checkout</span>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- PAGE TITLE end -->
+        </section>
+        <!-- Breadcrumb end -->
 
-    <main class="main">
+        <!-- ORDER DETAILS AREA -->
+        <section class="order-details-area pb-80 pb-xs-60">
+            <div class="container">
+                <div class="row g-4 g-lg-5">
+                    <div class="col-md-7">
+                        <div class="checkout-information">
+                            <h4 class="mb-30">Checkout</h4>
+                            <h5>Delivery Informations :</h5>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="input-item position-relative">
+                                        <img class="el-absolute center-left zindex-2" src="./assets/img/icons/user.svg" alt="">
+                                        <input type="text" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item position-relative">
+                                        <img class="el-absolute center-left zindex-2" src="./assets/img/icons/user-2.svg" alt="">
+                                        <input type="text" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item position-relative">
+                                        <img class="el-absolute center-left zindex-2" src="./assets/img/icons/email.svg" alt="">
+                                        <input type="email" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item position-relative">
+                                        <img class="el-absolute center-left zindex-2" src="./assets/img/icons/phone.svg" alt="">
+                                        <input type="text" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="input-item position-relative">
+                                        <img class="el-absolute center-left zindex-2" src="./assets/img/icons/map.svg" alt="">
+                                        <input type="text" placeholder="Full Address">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="order-details">
+                            <h4 class="mb-30">Order Details</h4>
 
+                            <ul class="order-list-text d-flex flex-column gap-3">
+                                <li><span>Subtotal</span> <span class="text-theme fw-semibold">SAR 199,99</span></li>
+                                <li><span>Shipping fee</span> <span class="text-theme fw-semibold">SAR 0,00</span></li>
+                            </ul>
+                            <!-- <div class="coupon-field position-relative mt-20">
+                                <img class="el-absolute center-left zindex-2" src="./assets/img/icons/coupon.svg" alt="">
+                                <input type="text" placeholder="Enter a Coupon or Promo code">
+                                <button class="el-absolute center-right zindex-2" type="submit">Add</button>
+                            </div> -->
+                            <ul class="total-text d-flex flex-column gap-3 pt-20 mt-30">
+                                <li><span>Total Amount</span> <span class="text-theme fw-semibold">SAR 199,99</span></li>
+                            </ul>
+                        </div>
+                        <div class="mt-30 mt-xs-10">
+                            <a href="./checkout-2.html" class="site-btn">Proceed to Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ORDER DETAILS AREA end -->
 
     </main>
 

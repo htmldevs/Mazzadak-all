@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--======== Title & Favicon ========-->
-    <title>MAZZADAK | My Cart</title>
+    <title>MAZZADAK | Checkout</title>
     <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
     <!--======== CSS ========-->
     <link href="./assets/css/fontawesome.min.css" rel="stylesheet">
@@ -88,7 +88,8 @@
                     <div class="col-md-12">
                         <nav class="breadcrumb">
                             <a class="breadcrumb-item" href="./index.html">Home</a>
-                            <span class="breadcrumb-item active">My Cart</span>
+                            <a class="breadcrumb-item" href="./cart.html">My Cart</a>
+                            <span class="breadcrumb-item active">Checkout</span>
                         </nav>
                     </div>
                 </div>
@@ -99,42 +100,35 @@
         <!-- ORDER DETAILS AREA -->
         <section class="order-details-area pb-80 pb-xs-60">
             <div class="container">
-                <div class="row g-4">
+                <div class="row g-4 g-lg-5">
                     <div class="col-md-7">
-                        <div class="cart-wrapper">
-
-                            <h4 class="mb-40 mb-xs-20">My Cart <span>(1 Item)</span></h4>
-
-                            <div class="row g-4">
-
-                                <!-- Single Item  -->
+                        <div class="checkout-information checkout-payment">
+                            <h4 class="mb-30">Checkout</h4>
+                            <h5>Payment Informations :</h5>
+                            <div class="row g-3">
                                 <div class="col-md-12">
-                                    <div class="cart-item d-md-flex gap-4">
-                                        <div class="cart-thumb">
-                                            <img src="./assets/img//shop/product-3.png" alt="">
-                                        </div>
-                                        <div class="cart-content flex-1">
-                                            <h4 class="mb-10"><a href="#">Schockemöhle Air Flow Champion Fetlock</a></h4>
-                                            <h6 class="mb-10">Brand : Schockemöhle</h6>
-                                            <div class="cart-qty">
-                                                <ul class="d-flex gap-2">
-                                                    <li><strong>Color :</strong> Navy Blue</li>
-                                                    <li><strong>Quantity :</strong> 1</li>
-                                                    <li><strong>Size :</strong> 145</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="text-theme mt-10 mb-10">SAR 199,99</h3>
-                                            <div class="cart-delivery d-flex align-items-center gap-3">
-                                                <img src="./assets/img/icons/cube.svg" alt="">
-                                                Delivery by : <span class="text-theme">26 Mar - 28 Mar</span>
-                                            </div>
-                                        </div>
-                                        <div class="cart-delete">
-                                            <a href="#"><i class="fa-regular fa-trash"></i></a>
-                                        </div>
+                                    <img src="./assets/img/checkout/method.png" alt="">
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="input-item position-relative">
+                                        <input type="text" placeholder="Name on Card">
                                     </div>
                                 </div>
-
+                                <div class="col-md-12">
+                                    <div class="input-item position-relative">
+                                        <input type="text" placeholder="Card Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item position-relative">
+                                        <input type="text" placeholder="Valid Until">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item position-relative">
+                                        <input type="text" placeholder="CVV">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -156,7 +150,7 @@
                             </ul>
                         </div>
                         <div class="mt-30 mt-xs-10">
-                            <a href="#" class="site-btn">Proceed to Checkout</a>
+                            <a href="./checkout-summary.html" class="site-btn">Checkout Now</a>
                         </div>
                     </div>
                 </div>

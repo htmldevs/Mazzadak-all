@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--======== Title & Favicon ========-->
-    <title>MAZZADAK | My Cart</title>
+    <title>MAZZADAK | Thank You</title>
     <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
     <!--======== CSS ========-->
     <link href="./assets/css/fontawesome.min.css" rel="stylesheet">
@@ -88,7 +88,10 @@
                     <div class="col-md-12">
                         <nav class="breadcrumb">
                             <a class="breadcrumb-item" href="./index.html">Home</a>
-                            <span class="breadcrumb-item active">My Cart</span>
+                            <a class="breadcrumb-item" href="./cart.html">My Cart</a>
+                            <a class="breadcrumb-item" href="./checkout-2.html">Checkout</a>
+                            <a class="breadcrumb-item" href="./checkout-summary.html">Order Summary</a>
+                            <span class="breadcrumb-item active">Successfully Ordered</span>
                         </nav>
                     </div>
                 </div>
@@ -97,66 +100,15 @@
         <!-- Breadcrumb end -->
 
         <!-- ORDER DETAILS AREA -->
-        <section class="order-details-area pb-80 pb-xs-60">
+        <section class="thankyou-area pb-80 pb-xs-60">
             <div class="container">
-                <div class="row g-4">
-                    <div class="col-md-7">
-                        <div class="cart-wrapper">
-
-                            <h4 class="mb-40 mb-xs-20">My Cart <span>(1 Item)</span></h4>
-
-                            <div class="row g-4">
-
-                                <!-- Single Item  -->
-                                <div class="col-md-12">
-                                    <div class="cart-item d-md-flex gap-4">
-                                        <div class="cart-thumb">
-                                            <img src="./assets/img//shop/product-3.png" alt="">
-                                        </div>
-                                        <div class="cart-content flex-1">
-                                            <h4 class="mb-10"><a href="#">Schockemöhle Air Flow Champion Fetlock</a></h4>
-                                            <h6 class="mb-10">Brand : Schockemöhle</h6>
-                                            <div class="cart-qty">
-                                                <ul class="d-flex gap-2">
-                                                    <li><strong>Color :</strong> Navy Blue</li>
-                                                    <li><strong>Quantity :</strong> 1</li>
-                                                    <li><strong>Size :</strong> 145</li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="text-theme mt-10 mb-10">SAR 199,99</h3>
-                                            <div class="cart-delivery d-flex align-items-center gap-3">
-                                                <img src="./assets/img/icons/cube.svg" alt="">
-                                                Delivery by : <span class="text-theme">26 Mar - 28 Mar</span>
-                                            </div>
-                                        </div>
-                                        <div class="cart-delete">
-                                            <a href="#"><i class="fa-regular fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="order-details">
-                            <h4 class="mb-30">Order Details</h4>
-
-                            <ul class="order-list-text d-flex flex-column gap-3">
-                                <li><span>Subtotal</span> <span class="text-theme fw-semibold">SAR 199,99</span></li>
-                                <li><span>Shipping fee</span> <span class="text-theme fw-semibold">SAR 0,00</span></li>
-                            </ul>
-                            <div class="coupon-field position-relative mt-20">
-                                <img class="el-absolute center-left zindex-2" src="./assets/img/icons/coupon.svg" alt="">
-                                <input type="text" placeholder="Enter a Coupon or Promo code">
-                                <button class="el-absolute center-right zindex-2" type="submit">Add</button>
-                            </div>
-                            <ul class="total-text d-flex flex-column gap-3 pt-20 mt-30">
-                                <li><span>Total Amount</span> <span class="text-theme fw-semibold">SAR 199,99</span></li>
-                            </ul>
-                        </div>
-                        <div class="mt-30 mt-xs-10">
-                            <a href="#" class="site-btn">Proceed to Checkout</a>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5 col-md-6 mx-auto">
+                        <div class="section-content text-center">
+                            <img src="./assets/img/thankyou/img.png" alt="">
+                            <h4>Your Order is Confirmed!</h4>
+                            <p class="mb-20">We'll send you a shipping confirmation email as soon as your order ships.</p>
+                            <a href="#" class="site-btn">Check Status</a>
                         </div>
                     </div>
                 </div>
