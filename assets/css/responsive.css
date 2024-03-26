@@ -103,7 +103,6 @@
    .auction-timer .hero-counter h3 {
       font-size: 28px;
    }
-
    /* VIDEO AREA */
    .video-wrapper {
       height: 440px;
@@ -114,11 +113,24 @@
    .back-arrow img {
       width: 30px;
    }
-
    /* SINGUP PAGE */
    .signup-switch-btn {
       margin-right: 0;
       margin-bottom: 10px;
+   }
+
+   /* PRODUCT DETAILS PAGE */
+   .pd-gl-link {
+      width: 80px;
+   }
+   .pd-details-content > h4 {
+      font-size: 22px;
+   }
+   .select-size ul li {
+      padding: 0.6em 1.5em;
+   }
+   .select-color img {
+      max-width: 60px;
    }
 
 
@@ -627,6 +639,37 @@ textarea{
 }
 .pr-category-menu ul li {
 	font-size: 12px;
+}
+.pd-details-content > h4,
+.related-title h3 {
+	font-size: 20px;
+}
+.pd-details-content .ratings ul li i,
+.pd-details-content .ratings span {
+	font-size: 14px;
+}
+.select-color img {
+	max-width: 60px;
+}
+.select-size ul li {
+	padding: 0.6em 1em;
+   text-align: center;
+}
+
+
+.product-gallery {
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.pd-gl-links {
+  width: 100%;
+  flex-direction: row;
+}
+.pd-gl-contents {
+  width: 100%;
+}
+.pd-gl-content {
+	border: 1px solid var(--gray-color);
 }
 
 }
