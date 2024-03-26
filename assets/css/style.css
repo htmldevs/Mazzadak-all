@@ -259,6 +259,48 @@ footer,
    opacity: 0.8;
    transition: 0.3s ease;
 }
+
+/* Pulse Btn */
+.pulse-btn {
+  position: relative;
+  z-index: 1;
+}
+.pulse-btn:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  border-radius: inherit;
+  background-color: var(--theme-color);
+  opacity: 0.6;
+  z-index: -1;
+  -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both
+    infinite;
+  animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+  pointer-events: none;
+}
+@keyframes btnIconRipple {
+  0% {
+    border-width: 4px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  80% {
+    border-width: 1px;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
 /* SlideDown Animation  */
 @-webkit-keyframes slideInDown {
    from {
@@ -1026,10 +1068,20 @@ footer,
    height: 100%;
    border-radius: 25px;
 }
+.singup-form .site-btn {
+   width: 100%;
+}
+.form-link-btn span {
+   color: #CBCBCB;
+   font-weight: 600;
+}
+.form-link-btn span a:hover {
+   color: var(--theme-color) !important;
+}
+/* Checkbox */
 .checkbox-input label {
   display: flex;
   gap: 10px;
-  align-items: center;
   cursor: pointer;
   position: relative;
   z-index: 1;
@@ -1038,6 +1090,7 @@ footer,
   width: 20px;
   height: 20px;
   background-color: #F6F6F6;
+  border: 1px solid #E6E6E6;
   border-radius: 5px;
   transition: .3s;
   position: relative;
@@ -1052,8 +1105,10 @@ footer,
 	color: #fff;
    transition: .3s;
    transform: scale(0.5);
+   opacity: 0;
 }
-.checkbox-input input {
+.checkbox-input input,
+.file-uplad input {
    position: absolute;
    left: 0;
    top: 0;
@@ -1062,19 +1117,46 @@ footer,
 }
 .checkbox-input input[type="checkbox"]:checked + label span {
 	background-color: var(--theme-color);
+   border-color: transparent;
 }
 .checkbox-input input[type="checkbox"]:checked + label span:after {
    transform: scale(1);
+   opacity: 1;
+}
+/* Switch Button */
+.signup-switch-btn {
+	margin-right: -50px;
+}
+.signup-switch-btn a span {
+  display: inline-grid;
+  place-content: center;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 3.75em;
+  height: 3.75em;
+}
+.signup-switch-btn a h6 {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.signup-switch-btn a span img {
+  max-width: 2.3em;
 }
 
-.singup-form .site-btn {
-   width: 100%;
+.checkbox-2 .checkbox-input label span {
+   margin-top: 5px;
 }
-.form-link-btn span {
-   color: #CBCBCB;
-   font-weight: 600;
+.file-uplad label {
+	background: #F6F6F6;
+	padding: 1em;
+	border-radius: 10px;
+	cursor: pointer;
 }
-.form-link-btn span a:hover {
-   color: var(--theme-color) !important;
+.file-uplad label span {
+   opacity: .5;
 }
+.file-uplad label img {
+	max-width: 1.5em;
+}
+
 /* SIGNUP PAGE end */

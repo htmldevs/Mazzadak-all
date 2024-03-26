@@ -68,6 +68,9 @@
     input, textarea {
       font-size: 14px;
    }
+   .pr-md-lg-0 {
+      padding-right: 0;
+   }
    /* GLOBAL// */
 
    /* HEADER */
@@ -108,10 +111,18 @@
    .video-wrapper .site-btn {
       font-size: 18px;
    }
-
    .back-arrow img {
       width: 30px;
    }
+
+   /* SINGUP PAGE */
+   .signup-switch-btn {
+      margin-right: 0;
+      margin-bottom: 10px;
+   }
+
+
+
 }
 
 /*========== LG-DESKTOP : BETWEEN 992PX TO 1199px. ==========*/
@@ -591,6 +602,17 @@ textarea{
 }
 .seller-profile-area .ratings ul li i {
 	font-size: 14px;
+}
+
+/* SIGNUP PAGE */
+.signup-feature-img {
+	height: 250px;
+}
+.signup-switch-btn {
+	margin-right: 0;
+}
+.file-uplad label span {
+	font-size: 12px;
 }
 
 }

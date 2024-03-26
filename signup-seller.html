@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--======== Title & Favicon ========-->
-    <title>MAZZADAK | Login</title>
+    <title>MAZZADAK | SignUp as Seller</title>
     <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
     <!--======== CSS ========-->
     <link href="./assets/css/fontawesome.min.css" rel="stylesheet">
@@ -86,44 +86,65 @@
             <div class="container">
                 <div class="row g-4 g-xl-5">
                     <div class="col-md-6">
-                        <div class="signup-feature-img bg-attachment" style="background-image: url('./assets/img/signup/feature-1.jpg');"></div>
+                        <div class="signup-feature-img bg-attachment" style="background-image: url('./assets/img/signup/feature-2.jpg');"></div>
                     </div>
                     <div class="col-md-6">
                         <div class="signup-switch-btn text-center text-lg-end mb-xs-10">
-                            <a href="./login-seller.html" class="text-center d-inline-block">
-                                <span class="pulse-btn"><img src="./assets/img/icons/login-user.svg" alt=""></span>
-                                <h6 class="mb-0 fw-semibold">Login as Seller</h6>
+                            <a href="./signup.html" class="text-center d-inline-block">
+                                <span class="pulse-btn"><img src="./assets/img/icons/user-buyer.svg" alt=""></span>
+                                <h6 class="mb-0 fw-semibold">Register as Buyer</h6>
                             </a>
                         </div>
                         <div class="pr-50 pr-md-lg-0 pr-xs-0">
                             <div class="signup-title text-center mb-20">
-                                <h3 class="fw-semibold mb-10">Welcome to <span class="text-theme">Mazzadak</span></h3>
-                                <p>Login now and continue selling and making profit!</p>
+                                <h3 class="fw-semibold mb-10">Join us as a <span class="text-theme">Seller</span></h3>
+                                <p>Start Selling now and make more profit!</p>
                             </div>
                             
                             <div class="singup-form">
                                 <form action="">
                                     <div class="row g-3 g-md-4">
-                                        <div class="col-md-12">
-                                            <label class="mb-10">Email / Phone Number</label>
-                                            <input type="text" placeholder="Enter your Email / Number">
+
+                                        <div class="col-md-6">
+                                            <label class="mb-10">Full Name*</label>
+                                            <input type="text" placeholder="Enter your Full Name">
                                         </div>
-                                        <div class="col-md-12">
+
+                                        <div class="col-md-6">
+                                            <label class="mb-10">Email*</label>
+                                            <input type="email" placeholder="Enter your Email address">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="mb-10">Phone Number*</label>
+                                            <input type="text" placeholder="Enter your Phone Number">
+                                        </div>
+                                        <div class="col-md-6">
                                             <label class="mb-10">Password*</label>
                                             <input type="password" placeholder="Enter your Password">
                                         </div>
                                         <div class="col-md-12">
+                                            <label class="mb-10">Commercial Record Number*</label>
+                                            <div class="file-uplad position-relative">
+                                                <label for="fileUpload" class="d-flex align-items-center gap-3">
+                                                    <img src="./assets/img/icons/upload.svg" alt="">
+                                                    <span>Upload your Commercial Record</span>
+                                                </label>
+                                                <input type="file" id="fileUpload">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
                                             <div class="checkbox-input position-relative">
-                                                <input type="checkbox" id="checkbox_1">
-                                                <label for="checkbox_1">
-                                                    <span></span> <div class="flex-1">Remember me for 7 days</div>
+                                                <input type="checkbox" id="checkbox_2">
+                                                <label for="checkbox_2">
+                                                    <span></span>
+                                                    <div class="flex-1">I Agree to Privacy Policy & Terms and Conditions of Mazzadak</div>
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <button type="submit" class="site-btn">Log in</button>
+                                            <button type="submit" class="site-btn">Sign Up</button>
                                             <div class="form-link-btn text-center mt-20 mt-xs-10">
-                                                <span>Don't Have an Account ? <a href="./signup.html" class="text-black">Sign up</a></span>
+                                                <span>Already Have an Account ? <a href="./login-seller.html" class="text-black">Login</a></span>
                                             </div>
                                         </div>
                                     </div>
