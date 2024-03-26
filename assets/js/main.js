@@ -144,3 +144,17 @@ const sponsorshipfile = document.querySelectorAll('.file-uplad input')
 	document.querySelector('.file-uplad label span').innerHTML = input.files[0].name
 	})
 });
+
+// select sibling child
+const selectableList = document.querySelectorAll(
+	".pr-category-menu ul li"
+);
+selectableList.forEach((list) => {
+	list.addEventListener("click", () => {
+		let listParent = list.closest("ul");
+		for (let i = 0; i < listParent.children.length; i++) {
+		listParent.children[i].classList.remove("active");
+		}
+		list.classList.add("active");
+	});
+});

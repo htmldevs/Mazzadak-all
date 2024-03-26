@@ -598,7 +598,6 @@ footer,
 	border-radius: 50px;
 	top: 35px;
 	left: 35px;
-   /* font-size: 18px; */
 	padding: 0.9em 2em;
 }
 .acution-option h4 span {
@@ -650,7 +649,6 @@ footer,
    padding: 1em;
 }
 .product-action .auction-badge {
-	/* font-size: 18px; */
 	padding: 0.52em 1em;
    font-family: "Almarai", sans-serif;
    font-weight: 700;
@@ -673,6 +671,13 @@ footer,
 }
 .product-img {
 	border: 1px solid #F2F2F2;
+   overflow: hidden;
+}
+.product-img > a {
+   display: inline-block;
+}
+.product-img > a:hover img {
+	transform: scale(1.07);
 }
 .product-text {
 	border: 1px solid #F2F2F2;
@@ -695,11 +700,9 @@ footer,
 }
 .product-text p {
   font-size: 20px;
-  /* line-height: 1.2; */ 
 }
 .ratings {
   padding: 5px 0;
-  /* font-size: 24px; */
   color: #FFB800;
 }
 .ratings ul li.active i {
@@ -708,8 +711,21 @@ footer,
 .ratings ul li i {
    font-size: 18px;
 }
-
-
+.product-img .auction-badge {
+	left: auto;
+	right: 15px;
+	z-index: 2;
+	top: auto;
+	bottom: 15px;
+	padding: 0.5em;
+	font-size: 15px;
+}
+.product-img .auction-badge img {
+	margin-right: 0;
+}
+.shop-cart:hover img {
+   filter: brightness(0) saturate(100%) invert(51%) sepia(15%) saturate(564%) hue-rotate(133deg) brightness(91%) contrast(91%);
+}
 /* PRODUCT AREA end */
 
 
@@ -1160,3 +1176,42 @@ footer,
 }
 
 /* SIGNUP PAGE end */
+
+
+
+/* SHOP PAGE */
+.banner-area img {
+   border-radius: 25px;
+   width: 100%;
+}
+.pr-category-menu ul li,
+.recommended-tag ul li,
+.recommended-btn a {
+	background-color: #EFF3F3;
+	color: var(--theme-color);
+	border-radius: 10px;
+	padding: 1em 1em;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+   transition: .3s;
+}
+.pr-category-menu ul {
+   gap: 20px;
+}
+.pr-category-menu ul li.active {
+   background-color: var(--theme-color);
+   color: var(--white-color);
+}
+.recommended-tag ul li {
+   display: flex;
+   gap: 10px;
+   color: var(--black-color);
+}
+.recommended-btn a {
+   background-color: transparent;
+   border: 1px solid #F1F1F1;
+   color: var(--black-color);
+   font-weight: 500;
+}
+/* SHOP PAGE end */
