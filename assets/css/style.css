@@ -1312,4 +1312,12 @@ hr:not([size]) {
 .related-title a:hover {
    color: var(--black-color);
 }
+/* Breadcrumb */
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "\f105";
+   font-family: "Font Awesome 6 Pro";
+}
+.breadcrumb-section .breadcrumb {
+   margin-bottom: 0;
+}
 /* SINGLE PRODUCT PAGE end */
